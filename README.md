@@ -57,6 +57,8 @@ public function add()
 
 ![Upload Gambar](img/Upload_Gambar.png)
 
+![Test](img/test.png)
+
 ![Hasil](img/hasil.png)
 
 ## Pertanyaan dan Tugas
