@@ -1,0 +1,30 @@
+CRITICAL - 2023-06-10 01:03:47 --> Class "App\Filters\Auth" not found
+#0 C:\xampp\htdocs\lab9_php_ci\ci4\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/artikel', 'before')
+#1 C:\xampp\htdocs\lab9_php_ci\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\lab9_php_ci\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\lab9_php_ci\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2023-06-10 01:33:54 --> Undefined variable $q
+#0 C:\xampp\htdocs\lab9_php_ci\ci4\app\Views\artikel\admin_index.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 5)
+#1 C:\xampp\htdocs\lab9_php_ci\ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lab9_php_ci\ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\lab9_php_ci\ci4\system\Common.php(1089): CodeIgniter\View\View->render('artikel/admin_i...', Array, true)
+#4 C:\xampp\htdocs\lab9_php_ci\ci4\app\Controllers\Artikel.php(42): view('artikel/admin_i...', Array)
+#5 C:\xampp\htdocs\lab9_php_ci\ci4\system\CodeIgniter.php(832): App\Controllers\Artikel->admin_index()
+#6 C:\xampp\htdocs\lab9_php_ci\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#7 C:\xampp\htdocs\lab9_php_ci\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\lab9_php_ci\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\lab9_php_ci\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-06-10 01:34:40 --> Undefined variable $q
+#0 C:\xampp\htdocs\lab9_php_ci\ci4\app\Views\artikel\admin_index.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 5)
+#1 C:\xampp\htdocs\lab9_php_ci\ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lab9_php_ci\ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\lab9_php_ci\ci4\system\Common.php(1089): CodeIgniter\View\View->render('artikel/admin_i...', Array, true)
+#4 C:\xampp\htdocs\lab9_php_ci\ci4\app\Controllers\Artikel.php(42): view('artikel/admin_i...', Array)
+#5 C:\xampp\htdocs\lab9_php_ci\ci4\system\CodeIgniter.php(832): App\Controllers\Artikel->admin_index()
+#6 C:\xampp\htdocs\lab9_php_ci\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#7 C:\xampp\htdocs\lab9_php_ci\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\lab9_php_ci\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\lab9_php_ci\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
