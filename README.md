@@ -59,7 +59,7 @@ public function add()
 
 ![Test](img/test.png)
 
-![Hasil](img/hasil.png)
+![Hasil](img/output.png)
 
 ## Pertanyaan dan Tugas
 <p>Selesaikan programnya sesuai Langkah-langkah yang ada. Anda boleh melakukan improvisasi.</p>
